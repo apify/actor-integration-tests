@@ -1,1 +1,1 @@
-branch=test_branch,folder=root
+branch=test_branch,dir=root
