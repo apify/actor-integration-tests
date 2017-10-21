@@ -1,3 +1,3 @@
 <?php
 
-echo "branch=master,folder=root";
+echo "branch=master,dir=root";

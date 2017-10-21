@@ -1,1 +1,1 @@
-branch=master,folder=root
+branch=master,dir=root
