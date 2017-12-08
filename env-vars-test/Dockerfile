@@ -1,0 +1,5 @@
+FROM php:7.0-cli
+ARG APIFY_TEST_VARIABLE_1
+ARG APIFY_TEST_VARIABLE_2
+COPY ./check.sh /
+RUN /check.sh
