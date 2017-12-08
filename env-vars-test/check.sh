@@ -2,6 +2,8 @@
 
 set -ex
 
+printenv
+
 if [ "$APIFY_TEST_VARIABLE_1" == "expected-value-1" ]; then
     echo "Env variable passed succesfully"
 else
