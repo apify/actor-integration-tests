@@ -1,0 +1,17 @@
+{
+    "title": "Act Crawler input",
+    "type": "object",
+    "properties": {
+        "key1": {
+            "title": "title of key1",
+            "type": "number",
+            "description": "Blaaah blaaah"
+        },
+        "key2": {
+            "title": "title of key2",
+            "type": "string",
+            "description": "Blaaah blaaah"
+        }
+    },
+    "required": ["key1"]
+}
