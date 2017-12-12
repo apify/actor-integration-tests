@@ -10,9 +10,16 @@
             "maximum": 10
         },
         "keyString": {
-            "title": "title of str",
+            "title": "title of str field",
             "type": "string",
-            "description": "Blaaah blaaah"
+            "description": "Blaaah blaaah",
+            "ui": "textfield"
+        },
+        "keyTextarea": {
+            "title": "title of str area",
+            "type": "string",
+            "description": "Blaaah blaaah",
+            "ui": "textarea"
         },
         "keyJs": {
             "title": "title of js",
