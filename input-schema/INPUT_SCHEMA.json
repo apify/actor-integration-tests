@@ -2,23 +2,29 @@
     "title": "Act Crawler input",
     "type": "object",
     "properties": {
-        "keyI": {
-            "title": "title of key1",
+        "keyInteger": {
+            "title": "title of int",
             "type": "integer",
             "description": "Blaaah blaaah",
             "minimum": 2,
             "maximum": 10
         },
-        "keyS": {
-            "title": "title of key2",
+        "keyString": {
+            "title": "title of str",
             "type": "string",
             "description": "Blaaah blaaah"
         },
-        "keyC": {
-            "title": "title of key2",
+        "keyJs": {
+            "title": "title of js",
             "type": "string",
             "description": "Blaaah blaaah",
             "ui": "js"
+        },
+        "keyEnum": {
+            "title": "title of enum",
+            "type": "string",
+            "description": "Blaaah blaaah",
+            "enum": ["aaa", "bbb"]
         }
     },
     "required": ["key1"]
