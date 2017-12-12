@@ -2,15 +2,21 @@
     "title": "Act Crawler input",
     "type": "object",
     "properties": {
-        "key1": {
+        "keyI": {
             "title": "title of key1",
-            "type": "number",
+            "type": "integer",
             "description": "Blaaah blaaah"
         },
-        "key2": {
+        "keyS": {
             "title": "title of key2",
             "type": "string",
             "description": "Blaaah blaaah"
+        },
+        "keyC": {
+            "title": "title of key2",
+            "type": "string",
+            "description": "Blaaah blaaah",
+            "ui": "js"
         }
     },
     "required": ["key1"]
