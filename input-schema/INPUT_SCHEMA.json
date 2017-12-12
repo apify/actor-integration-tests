@@ -5,7 +5,9 @@
         "keyI": {
             "title": "title of key1",
             "type": "integer",
-            "description": "Blaaah blaaah"
+            "description": "Blaaah blaaah",
+            "minimum": 2,
+            "maximum": 10
         },
         "keyS": {
             "title": "title of key2",
