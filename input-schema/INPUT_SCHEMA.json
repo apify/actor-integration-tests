@@ -7,7 +7,8 @@
             "type": "integer",
             "description": "Blaaah blaaah",
             "minimum": 2,
-            "maximum": 10
+            "maximum": 10,
+            "default": 8
         },
         "keyString": {
             "title": "title of str field",
@@ -34,5 +35,5 @@
             "enum": ["aaa", "bbb"]
         }
     },
-    "required": ["key1"]
+    "required": ["keyInteger"]
 }
