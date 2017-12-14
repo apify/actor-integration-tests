@@ -30,7 +30,6 @@
         },
         "keyEnum": {
             "title": "title of enum",
-            "type": "enum",
             "description": "Blaaah blaaah",
             "enum": ["aaa", "bbb"]
         }
