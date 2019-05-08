@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "This is a boilerplate of an Apify actor.",
   "dependencies": {
+    "apify": "latest",
     "underscore": "^1.9.0",
     "lorem-ipsum": "^2.0.2"
   },
