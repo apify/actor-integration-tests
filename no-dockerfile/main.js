@@ -4,3 +4,5 @@ const _ = require('underscore');
 const { LoremIpsum } = require('lorem-ipsum');
 
 if (!_.isObject(LoremIpsum)) throw new Error('Something is wrong');
+
+console.log('Everything is fine');
