@@ -1,0 +1,16 @@
+{
+  "name": "my-awesome-actor",
+  "version": "0.0.1",
+  "description": "This is a boilerplate of an Apify actor.",
+  "dependencies": {
+    "underscore": "^1.9.0",
+    "lorem-ipsum": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+  },
+  "author": "It's not you it's me",
+  "license": "ISC"
+}
