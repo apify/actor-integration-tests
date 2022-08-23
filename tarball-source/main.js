@@ -1,5 +1,5 @@
-const Apify = require('apify');
+const { Actor } = require('apify');
 
-Apify.main(async () => {
+Actor.main(async () => {
     console.log('sourceType=TARBALL');
 });

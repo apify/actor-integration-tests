@@ -1,13 +1,13 @@
 const _ = require('underscore');
-const Apify = require('apify');
+const { Actor } = require('apify');
 
 // A random package that we use for testing, it's not included by 'apify' package
 const { LoremIpsum } = require('lorem-ipsum');
 
 if (!_.isObject(LoremIpsum)) throw new Error('Something is wrong');
 
-Apify.main(async () => {
-    const input = await Apify.getValue('INPUT');
+Actor.main(async () => {
+    const input = await Actor.getValue('INPUT');
 
-    await Apify.setValue('OUTPUT', 'Everything is fine', { contentType: 'text/plain'});
+    await Actor.setValue('OUTPUT', 'Everything is fine', { contentType: 'text/plain'});
 });
