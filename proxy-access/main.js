@@ -1,7 +1,7 @@
 import { Actor } from 'apify';
 import { load } from 'cheerio';
 import { gotScraping } from 'got-scraping';
-import { sleep } from '@crawler/utils';
+import { sleep } from '@crawlee/utils';
 
 // This is an actor that checks if the proxy access is working.
 // It opens a http://proxy.apify.com/ and checks if the status is "connected".
