@@ -1,4 +1,4 @@
-import { Actor } from 'apify';
+import { Actor, log } from 'apify';
 import { load } from 'cheerio';
 import { gotScraping } from 'got-scraping';
 import { sleep } from '@crawlee/utils';
@@ -7,6 +7,8 @@ import { sleep } from '@crawlee/utils';
 // It opens a http://proxy.apify.com/ and checks if the status is "connected".
 
 await Actor.init();
+
+const input = await Actor.getInput();
 
 const CONNECTED_STATUS = 'connected';
 
@@ -18,9 +20,11 @@ let lastError;
 // Requests via proxy can fail, so we retry them.
 for (let i = 0; i < 3; i++) {
     try {
+        const proxyPageUrl = input.proxyPageUrl || 'http://proxy.apify.com/';
+        log.info(`Accessing ${proxyPageUrl}`);
         response = await gotScraping({
             proxyUrl: await proxyConfig.newUrl(),
-            url: 'http://proxy.apify.com/',
+            url: proxyPageUrl,
         });
         break;
     } catch (e) {
