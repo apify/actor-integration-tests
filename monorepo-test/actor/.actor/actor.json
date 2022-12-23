@@ -3,5 +3,7 @@
 	"name": "test-puppeteer",
 	"version": "0.0",
 	"buildTag": "latest",
-	"environmentVariables": {}
+	"environmentVariables": {},
+    "input": "../../INPUT_SCHEMA.json",
+    "readme": "../../README.md"
 }
