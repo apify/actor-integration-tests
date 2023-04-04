@@ -2,10 +2,9 @@
     "actorSpecification": 1,
     "name": "testing-monorepo-actor-3",
     "title": "Testing monorepo actor 3",
-    "description": "This actor tries to load files outside of the git repo root, which is not allowed.",
+    "description": "This actor tries to load files outside of the docker context dir (but still in git repo root), which is not allowed.",
     "version": "0.0",
     "dockerContextDir": "../..",
-    "input": "../../shared/input_schema.json",
-    "readme": "/etc/passwd",
+    "input": "../../../shared/input_schema.json",
     "dockerfile": "./Dockerfile"
 }
