@@ -1,9 +1,0 @@
-{
-	"actorSpecification": 1,
-	"name": "test-puppeteer",
-	"version": "0.0",
-	"buildTag": "latest",
-	"environmentVariables": {},
-    "input": "../../INPUT_SCHEMA.json",
-    "readme": "../../README.md"
-}

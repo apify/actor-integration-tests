@@ -1,0 +1,17 @@
+{
+    "title": "Actor input schema",
+    "description": "This is actor input schema",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "testing": {
+            "title": "testing",
+            "type": "string",
+            "description": "testing",
+            "editor": "textfield"
+        }
+    },
+    "required": [
+        "testing"
+    ]
+}

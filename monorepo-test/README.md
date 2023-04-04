@@ -1,1 +1,0 @@
-# Outside the actor folder
