@@ -1,4 +1,4 @@
-FROM apify/actor-node:16
+FROM apify/actor-node:20
 
 COPY actor_2/ ./actor_2/
 COPY shared/ ./shared/
